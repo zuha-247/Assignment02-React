@@ -1,0 +1,188 @@
+/* ========== GLOBAL ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f4f2f7;
+  color: #222;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+/* =========================================
+   FEES PAGE MAIN CONTAINER
+========================================= */
+.fees-container {
+  padding: 60px 20px;
+  /*max-width: 1100px;*/
+  margin: auto;
+  text-align: center;
+}
+
+.fees-container h2 {
+  font-size: 2.3rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #222;
+  letter-spacing: 1px;
+}
+
+/* Flex Layout */
+.fees-flexbox {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+/* =========================================
+   FORM SECTION
+========================================= */
+.purchase-form {
+  flex: 1;
+  min-width: 350px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
+}
+
+.purchase-form label {
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 12px 0 6px;
+  color: #333;
+}
+
+.purchase-form input,
+.purchase-form select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1.5px solid #ccc;
+  outline: none;
+  font-size: 1rem;
+  transition: 0.2s;
+}
+
+.purchase-form input:focus,
+.purchase-form select:focus {
+  border-color: #8b008b;
+  box-shadow: 0 0 5px rgba(139, 0, 139, 0.3);
+}
+
+/* Total Price */
+.purchase-form h3 {
+  margin-top: 20px;
+  font-size: 1.4rem;
+  color: #8b008b;
+  font-weight: bold;
+}
+
+/* Confirm Button */
+.purchase-form .btn {
+  width: 100%;
+  background: #8b008b;
+  color: #fff;
+  padding: 12px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  border: none;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.purchase-form .btn:hover {
+  background: #b300b3;
+  transform: scale(1.03);
+}
+
+/* =========================================
+   FEE BREAKDOWN SECTION
+========================================= */
+.fees-info {
+  flex: 0.8;
+  min-width: 300px;
+  padding: 25px;
+  background: #fafafa;
+  border-radius: 12px;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
+  text-align: left;
+}
+
+.fees-info h3 {
+  font-size: 1.5rem;
+  color: #222;
+  margin-bottom: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.fees-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.fees-info li {
+  font-size: 1.05rem;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+  color: #444;
+}
+
+.fees-info li strong {
+  color: #8b008b;
+  font-size: 1.2rem;
+}
+
+/* =========================================
+   RESPONSIVE DESIGN
+========================================= */
+
+@media (max-width: 900px) {
+  .fees-flexbox {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .purchase-form,
+  .fees-info {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .fees-container h2 {
+    font-size: 1.8rem;
+  }
+}
+
+
+
+
+/* ========== FOOTER ========== */
+footer {
+  text-align: center;
+  padding: 25px 0;
+  margin-top: 60px;
+  background: #eee;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+footer i {
+  margin: 0 4px;
+}
+

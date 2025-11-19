@@ -1,0 +1,11 @@
+[
+  { "title": "Sunset Glow", "price": 120, "medium": "Watercolor", "img": "painting1" },
+  { "title": "Mountain Stream", "price": 150, "medium": "Watercolor", "img": "painting2" },
+  { "title": "Garden Bliss", "price": 180, "medium": "Watercolor", "img": "painting3" },
+  { "title": "Royal Portrait", "price": 300, "medium": "Oil", "img": "painting4" },
+  { "title": "Golden Hour", "price": 280, "medium": "Oil", "img": "painting5" },
+  { "title": "Ocean's Voice", "price": 320, "medium": "Oil", "img": "painting6" },
+  { "title": "Color Storm", "price": 200, "medium": "Acrylic", "img": "painting7" },
+  { "title": "Enchanted Forest", "price": 220, "medium": "Acrylic", "img": "painting8" },
+  { "title": "City Lights", "price": 250, "medium": "Acrylic", "img": "painting9" }
+]

@@ -1,0 +1,155 @@
+/*-----------Starting-------------*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #2B1B2F;
+    color: #F3EDE7;
+}
+
+/*--------------------------------- Start of Header--------------------------------------------------*/
+/*Donot Change*/
+#header {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    border: 10px solid #2B1B2F;
+}
+
+
+.container {
+    padding-top: 80px; /* Prevents content from hiding behind nav */
+}
+
+button{
+    border: none;
+    background: none;
+    outline: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.primary-btn {
+    padding: 17px 43px;
+    background: #2B1B2F;
+    padding: 14px 50px;
+    border-radius: 6px;
+    font-weight: bold;
+    color: white;
+}
+
+.secondary-btn {
+    padding: 15px 40px;
+    background: none;
+    border: 1px solid #bf00bf;
+    padding: 14px 50px;
+    border-radius: 6px;
+    font-weight: bold;
+    color: white;
+}
+.logo {
+    width: 70px; 
+    height: auto;
+    border: 3px solid #ad7a3c; /* Border */
+    border-radius: 15px;
+    padding: 3px;
+    position: absolute;
+    top: 5px; /* Moves it up */
+    left: 20px;
+}
+/* Style for the Image */
+.left img {
+    width: 700px; /* Adjust size as needed */
+    height: auto;
+    border: 8px solid purple;
+    border-radius: 30px; /* Rounded corners */
+    padding: 15px; /* Space inside the border */
+    background-color: #2B1B2F;
+    display: block; /* Ensure no extra space */
+}
+
+/* Navigation Bar */
+nav {
+    position: fixed; /* Keeps the nav bar fixed */
+    top: 0; /* Sticks it to the top of the page */
+    left: 0;
+    width: 100%; /* Full width */
+    background-color: #ad7a3c; /* Ensures visibility */
+    z-index: 1000; /* Keeps it above other elements */
+    padding: 15px 10%; /* Adjust spacing */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+    /* Navigation Links */
+   nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding-left: 100px; /* Moves menu items to the right */
+}
+
+nav ul li a {
+    font-family: "Courier New", Courier, monospace;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+            /* Hover Effect */
+    nav ul li a:hover {
+        background-color: purple;
+        color: #F3EDE7;
+    }
+
+    /* "BOOK NOW!" Button */
+    nav .primary-btn {
+        background-color: #3a2f3a;
+        color: #ad7a3c;
+        padding: 10px 20px;
+        border: 2px solid #ad7a3c;
+        border-radius: 10px;
+        width: 190px;
+        text-decoration: none; /* ✅ This removes the underline */
+        text-align: center; /* Centers text properly */
+        cursor: pointer;
+    }
+
+        nav .primary-btn:hover {
+            background-color: purple;
+            color: white;
+        }
+
+/* Align BOOK NOW and hamburger icon */
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 75px; /* Adjust spacing between button and menu */
+}
+
+/*--------------------------------------------------------------- END OF NAVIGATION BAR -----------------------------------------------*/
+
+/* For our Common footer */
+.copyright {
+    width: 100%;
+    text-align: center;
+    padding: 25px 0px;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+}

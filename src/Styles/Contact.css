@@ -1,0 +1,170 @@
+/* ========== GLOBAL ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f4f2f7;
+  color: #222;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+/* =============== CONTACT PAGE ==================== */
+
+#Contactus-section {
+  padding: 60px 0;
+}
+
+/* Main wrapper centered, matching Home page look */
+#Contact .container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(146, 0, 255, 0.12);
+}
+
+/* Row layout aligned like Home page top content */
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 45px;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+/* LEFT SIDE */
+.contact-left {
+  flex: 1;
+  min-width: 280px;
+}
+
+.contact-left .sub-title {
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #6d04ff;
+}
+
+.contact-left p {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-left i {
+  color: #bf00bf;
+  font-size: 22px;
+}
+
+/* SOCIAL ICONS */
+.social-icons {
+  margin-top: 15px;
+}
+
+.social-icons a {
+  font-size: 30px;
+  color: #555;
+  margin-right: 12px;
+  transition: 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #6d04ff;
+  transform: translateY(-4px);
+}
+
+/* RIGHT SIDE (FORM) */
+.contact-right {
+  flex: 1;
+  min-width: 300px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(146, 0, 255, 0.1);
+}
+
+.contact-right form input,
+.contact-right form textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 12px 0;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.contact-right form input:focus,
+.contact-right form textarea:focus {
+  border-color: #6d04ff;
+}
+
+/* SEND BUTTON */
+.btn2 {
+  padding: 14px 28px;
+  background: #6d04ff;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  margin-top: 10px;
+  transition: 0.3s;
+  width: 100%;
+}
+
+.btn2:hover {
+  background: #5400ca;
+  transform: translateY(-3px);
+}
+
+/* Responsive Layout */
+@media (max-width: 900px) {
+  .row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-left .sub-title {
+    text-align: center;
+  }
+
+  .social-icons {
+    text-align: center;
+  }
+
+  .contact-right {
+    margin-top: 20px;
+  }
+}
+
+/* ========== FOOTER ========== */
+footer {
+  text-align: center;
+  padding: 25px 0;
+  margin-top: 60px;
+  background: #eee;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+footer i {
+  margin: 0 4px;
+}
